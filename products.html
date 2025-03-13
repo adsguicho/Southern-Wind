@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Products</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+    <link rel="stylesheet" href="css/style_index.css">
+    <link rel="stylesheet" href="css/categories.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <head>
+  <body>
+    <!-- navbar -->
+      <nav> 
+        <div class="logo">
+          <h3><a href="index.html" class="logo-name">Southern Wind Style</a></h3>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="products.html">Produtos</a></li>
+          <li><a href="contact.html">Contate-nos</a></li>
+          <li><a href="login.html" id="login">Login</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    <!-- navbar -->
+      <h2 class="main-head-of-products">Todos tem o seu estilo!<br>
+        <span class="colored-word-bigger-size">ENCONTRE O SEU AQUI!</span>
+      </h2>
+
+      <br>
+      <div class="bg-images">
+        <a href="products.html"><img src="images/products-img/marcus-loke-xXJ6utyoSw0-unsplash (1).jpg" alt=""></a>
+      </div>
+
+      <center><p class="msg-ps">
+        <span class="colored-word">Clique</span> no seu produto para adicioná-lo ao carrinho de compras.
+        <br>Veja abaixo em <span class="colored-word">SEU CARRINHO</span> para detalhes.
+      </p></center>
+
+      <div>
+        <h1>Para <span class="colored-word">Ela</span></h1>
+        <center><hr class="products-hr"></center>
+        <br><br>
+
+        <div class="kurti">
+          <img src="images/products-img/women/wc1.jpg" id="Casaco Cozy Cloud || R$.49,99" onclick="add(this.id)">
+          <img src="images/products-img/women/wc2.jpg" id="Jaqueta Ice Chic || R$.99,99" alt="" onclick="add(this.id)">
+          <img src="images/products-img/women/wc3.jpg" id="Blazer Winter Luxe || R$.119,99" alt="" onclick="add(this.id)">
+          <img src="images/products-img/women/wc4.jpg" id="Parka Snow Drift || R$.99,99" alt="" onclick="add(this.id)">
+        </div> 
+        <br>
+        <div class="western">
+          <img src="images/products-img/women/wc5.jpg"  id="Casaco Moonlight Warmth || R$.49,99" alt="" onclick="add(this.id)">
+          <img src="images/products-img/women/wc6.jpg"  id="Trench Coat Frosty Elegance || R$.119,99" alt="" onclick="add(this.id)">
+          <img src="images/products-img/women/wc7.jpg"  id="Jaqueta Velvet Breeze || R$.59,99" alt="" onclick="add(this.id)">
+          <img src="images/products-img/women/wc8.jpg"  id="Jaqueta Aurora Puffer || R$. 59,99" alt="" onclick="add(this.id)">
+        </div>
+        <br>  
+        <div class="heels">
+          <img src="images/products-img/women/wg1.jpg"  id="Luva Cozy Touch || R$.4,99" alt="" onclick="add(this.id)">
+          <img src="images/products-img/women/wg2.jpg"  id="Luva Velvet Warmth || R$.4,99" alt="" onclick="add(this.id)">
+          <img src="images/products-img/women/wg3.jpg"  id="Luva Winter Chic || R$.4,99" alt="" onclick="add(this.id)">
+          <img src="images/products-img/women/wg4.jpg"  id="Luva Frost Elegance || R$.4,99" alt="" onclick="add(this.id)">
+        </div>
+
+        <h1>Para <span class="colored-word">Ele</span></h1>
+        <center><hr class="products-hr"></center>
+        <br><br>
+
+        <div class="shirts">
+          <img src="images/products-img/men/mc1.jpg"  id="Jaqueta Arctic Shield || R$.119,99" alt="" onclick="add(this.id)">
+          <img src="images/products-img/men/mc2.jpg"  id="Jaqueta Storm Breaker || R$.119,99" alt="" onclick="add(this.id)">
+          <img src="images/products-img/men/mc3.jpg"  id="Jaqueta Urban Explorer || R$.59,99" alt="" onclick="add(this.id)">
+          <img src="images/products-img/men/mc4.jpg"  id="Jaqueta Frost Guard || R$.59,99" alt="" onclick="add(this.id)">
+        </div>
+        <br>
+        <div class="jeans">
+          <img src="images/products-img/men/mc5.jpg"  id="Jaqueta Timber Ridge || R$.59,99" alt="" onclick="add(this.id)">
+          <img src="images/products-img/men/mc6.jpg"  id="Jaqueta Alpine Trek || R$.49,99" alt="" onclick="add(this.id)">
+          <img src="images/products-img/men/mc7.jpg"  id="Jaqueta Nordic Chill || R$.49,99" alt="" onclick="add(this.id)">
+          <img src="images/products-img/men/mc8.jpg"  id="Jaqueta Glacier Pro || R$.49,99" alt="" onclick="add(this.id)">
+        </div>
+        <br>
+        <div class="shoes">
+          <img src="images/products-img/men/mg1.jpg"  id="Luva Cold Grip || R$.4,99" alt="" onclick="add(this.id)">
+          <img src="images/products-img/men/mg2.jpg"  id="Luva Frost Warrior || R$.4,99" alt="" onclick="add(this.id)">
+          <img src="images/products-img/men/mg3.jpg"  id="Luva Alpine Touch || R$.4,99" alt="" onclick="add(this.id)">
+          <img src="images/products-img/men/mg4.jpg"  id="Luva Ice Defender || R$.4,99" alt="" onclick="add(this.id)">
+        </div><br>
+
+        <h4 class="sry-msg">Uh-Oh!<span class="colored-word"> acabou!</span>🛒</h4>
+        <center><hr class="last-hr-of-product"></center>
+        <br><br>
+
+        <div class="cart-details">
+          <h2 class="head-of-cart">Seu carrinho</h2>
+            <hr class="hr-of-cart-head">
+            <br>
+          <ul id="ul_pr">
+            
+          </ul>
+        <button class="btn-clear-list" onclick="emptyList()"> <span class="colored-word"> Limpar lista</span></button> <br>
+          <small>Não está vendo? Clique & adicione suas peças favoritas em sua
+          <span class="colored-word"> Lista de compras!</span> </small>
+        </div>
+        <br><br><br>
+      </div>
+      
+    <script src="nav.js"></script>
+    <script src="js/products.js"></script>
+  </body>
+</html>
